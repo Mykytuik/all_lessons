@@ -1,11 +1,11 @@
 #Factorial
 value=1
 inp=int(input("Factorial from:"))
-for var in range(inp+1):
-    if inp<=1:
-        print("Factorial:1")
-    elif var<=1:
-        pass
-    else:
+if -1<inp<=1:
+    print("Factorial:1")
+elif inp<0:
+    print("Factorial non positive number don`t exist")
+else:
+    for var in range(1,inp+1):
         value*=var
-print(f"Factorial:{value}") 
+    print(f"Factorial:{value}") 
