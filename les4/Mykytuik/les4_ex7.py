@@ -4,3 +4,4 @@ for var in list:
    list[var]= float(var)
    
 print(type(list[1]))
+print(list)
