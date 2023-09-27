@@ -46,7 +46,7 @@ def Logup(Login,password:str):
         if "@"in m or "$"in m or "#"in m:
             n+=1
         
-        #return i
+        
     if lower==0 or upper==0 or digit==0 or n==0:
         print("At least 1 letter between [a-z] and 1 letter between [A-Z]. \n At least 1 number between [0-9].\n At least 1 character fro [$#@].")
         print("Try again:")
